@@ -11,7 +11,7 @@ of the computational mathematics worksheet.
 - Q4: Student performance analysis
 
 ## Installation
-pip install -r requirements.txt
+pip install - requirements.txt
 
 ## Run the dashboard
 streamlit run app.py
