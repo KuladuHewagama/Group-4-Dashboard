@@ -17,7 +17,7 @@ q1, q2, q3, q4 = st.tabs([
 
 with q1:
     st.header("Question1")
-    st.write("Question1.py")
+    exec(open("Question1.py").read())
    
 
 with q2:
