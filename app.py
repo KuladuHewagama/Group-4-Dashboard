@@ -55,7 +55,7 @@ with tab1:
     # Our file prints 4 values before the change, then 4 values after it
     numbers = [float(x) for x in re.findall(r"=\s*(-?\d+\.?\d*)", text)]
     table = pd.DataFrame(
-        {"Before changing 8 to 12": numbers[:2], "After changing 8 to 12": numbers[4:8]},
+        {"Before changing 8 to 12": numbers[:4], "After changing 8 to 12": numbers[4:8]},
         index=["Mean", "Median", "Variance", "Standard deviation"],
     ).round(3)
 
